@@ -16,3 +16,5 @@
 
 8.There is no sample data of prodcut i am attaching here because you can access all product list by
 /product/getAllProducts endpoint for review related actions. but for this you have to do signup and login and use jwttoken for authorization for access all api endpoints
+
+9.Deployment process:- first of all created aws ec2 linux server instance and generated key for access server from putty. then login on server by putty with private key as ec2-user. updated list of all vailable package on linux server. after this installed node js on linux server. after this installed mongodb on server. after this installed git on server. after this took clone of git repoon server. then installed all dependecies in project directory by command npm i. then started server by npm run start command. After this in ec2 instance security group added my application port for access server.
